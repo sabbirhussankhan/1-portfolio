@@ -17,6 +17,9 @@ section {
     color: #fff;
     font-weight: 600;
 }
+ul li{
+    list-style: none;
+}
 .banner-bg{                                                 
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
@@ -46,6 +49,8 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .bg-image{
@@ -72,4 +77,104 @@ section {
 .list-text li i{
     color: rgb(16, 255, 7);
     margin-right: 10px;
+}
+.main-part{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.text-name{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+.all-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.items h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+.items p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+.image-part{
+    background: rgb(241,91,34);
+    background: linear-gradient(90deg, rgba(241,91,34,1) 0%, rgba(241,91,34,0) 100%),url(../images/watch.png) ;
+    height: 300px;
+    border-radius: 10px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text-b{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-top: 80px;
+    padding-left: 70px;
+}
+.text-w{
+    font-weight: 700;
+    font-size: 40px;
+}
+.text-b .p-btn{
+    background-color: white;
+    color: #F15B22;
+    margin-top: 25px;
+}
+footer{
+    background-color: #151414;;
+}
+.font .p-btn{
+    background-color: white;
+    color: #F15B22;
+    margin-top: 25px;
+}
+.footer-part{
+    color: white;
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.font-c{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+.last-font{
+    margin-bottom: 25px;
+}
+.font-line h3{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+.ul-l{
+    display: flex;
+}
+.ul-l li{
+    margin-right: 20px;
+}
+
+.email-part{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+    border: #fff solid 1px;
+    margin-bottom: 16px;
+}
+::placeholder{
+    padding-left: 15px;
+    color: #fff;
+}
+.font-line .p-btn{
+    padding: 25px;
+    background-color: white;
+    color: #F15B22;
+    border-radius: 5px;
 }
