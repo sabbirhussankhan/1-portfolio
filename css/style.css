@@ -21,6 +21,7 @@ section {
 ul li{
     list-style: none;
 }
+/* bounce--PART start */
 .logo{
     font-size: 50px;
     font-family: serif;
@@ -39,20 +40,16 @@ nav ul {
     align-items: center;
 }
 nav ul li a{
-    
     text-decoration: none;
     color: #151414;
     margin-left: 20px;
     font-size: 20px;
     font-weight: 400;
 }
+/* bonuce part end */
+/* code start */
 
-
-
-
-
-
-.banner-bg{                                                 
+.banner-bg{                                                
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
     background-size:cover;
@@ -76,6 +73,7 @@ nav ul li a{
     margin-bottom: 32px;
     font-weight: 400;
 }
+/* <about-part> */
 .female-part{
     display: flex;
     justify-content: space-between;
@@ -109,6 +107,9 @@ nav ul li a{
     color: rgb(16, 255, 7);
     margin-right: 10px;
 }
+/* about-part end */
+/* my plan part start */
+
 .main-part{
     text-align: center;
     margin-bottom: 100px;
@@ -132,6 +133,9 @@ nav ul li a{
     font-size: 25px;
     color: #737272;
 }
+/* plan part end */
+/* -- image part - */
+
 .image-part{
     background: rgb(241,91,34);
     background: linear-gradient(90deg, rgba(241,91,34,1) 0%, rgba(241,91,34,0) 100%),url(../images/watch.png) ;
@@ -156,6 +160,9 @@ nav ul li a{
     color: #F15B22;
     margin-top: 25px;
 }
+/* image part end  */
+/* contect part  */
+
 footer{
     background-color: #151414;;
 }
@@ -209,3 +216,5 @@ footer{
     color: #F15B22;
     border-radius: 5px;
 }
+/* contact part end */
+/* code END  */
